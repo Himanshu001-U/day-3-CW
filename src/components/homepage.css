@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.head {
+    background-color: rgb(8, 4, 43);
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    gap: 10px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    padding-left: 270px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    margin-left: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: rgb(72, 53, 241);
+}
+
+.home {
+    background: url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: white;
+}
+
+.first {
+    padding-top: 160px;
+    padding-left: 200px;
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0;
+    /* padding: 0; */
+}
+
+.second {
+    color: red;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    padding-left: 220px;
+}
+
+.home p {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.home p span {
+    padding-left: 30px ;
+}
+
+.button1 {
+    margin: 0;
+    padding: 15px 10px;
+    width: 150px;
+    position: absolute; 
+    left: 180px;
+    background-color: rgb(243, 60, 182);
+}
+.button2 {
+    background-color: white;
+    padding: 15px 10px;
+    color: black;
+    width: 150px;
+    position: absolute; 
+    left: 100px;
+
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: aqua; */
+    margin: 0px 50px;
+    margin-bottom: 100px;
+}
+
+.mid img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 40px;
+    position: relative;
+    top: 20px;
+    z-index: 10;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 800px;
+    height: 700px;
+    padding: 15px;
+    position: relative;
+    right: 100px;
+}
+
+.get {
+    margin: 10px;
+    padding: 15px 10px;
+    width: 150px;
+    background-color: rgb(243, 60, 182);
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    width: 90%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+.col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+.col5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+.col6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.864);
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(223, 227, 230);
+}
+
+svg {
+    color: rgb(19, 244, 169);
+    padding-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+footer p {
+    color: gray;
+}
+
+footer ul {
+    position: absolute;
+    top: 2390px;
+    left: 260px;
+    gap: 40px;
+}
+
+footer ul li {
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
